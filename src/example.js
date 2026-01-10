@@ -1,6 +1,1 @@
-const test = "this uses double quotes";
-console.log(test);
-const unused = 123;
-function myFunc() {
-  return 456
-}
+const test = 'this uses single quotes';\nfunction myFunc() {\n  return 456;\n}
