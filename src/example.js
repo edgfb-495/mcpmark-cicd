@@ -1,0 +1,1 @@
+const test = 'this uses single quotes';\nfunction myFunc() {\n  return 456;\n}
