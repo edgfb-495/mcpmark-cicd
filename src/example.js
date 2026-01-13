@@ -1,10 +1,8 @@
-// This file has intentional linting violations
-const unusedVariable = "This variable is unused (violates no-unused-vars)";
-
+// Fixed linting errors (all violations resolved)
 function testFunction() {
-  console.log("Using console (violates no-console warning)");
-  let missingSemicolon = "This line has no semicolon" // Violates semi rule
-  let doubleQuotes = "This uses double quotes instead of single" // Violates quotes rule
+  let correctSemicolon = 'This line has a semicolon';
+  let singleQuotes = 'This uses single quotes as required';
+  return `${correctSemicolon} | ${singleQuotes}`;
 }
 
 testFunction();
